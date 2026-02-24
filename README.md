@@ -19,4 +19,4 @@ Conversational agent representing a structured candidate profile, designed for i
 https://huggingface.co/spaces/snsh0327/Data-Science-Career-Talk
 
 **Implementation**  
-`resume-agent/`
+[`resume-agent/`](./resume-agent/)
