@@ -1,0 +1,11 @@
+[PLACEHOLDER - DO NOT ADD SENSITIVE INFO]
+
+Write a short professional summary in plain text.
+Example structure:
+- Current role and years of experience
+- Top 3-5 skills
+- Types of problems you solve
+- Preferred industries or domains
+- Contact preference (optional)
+
+Keep this high level. Avoid personal identifiers you do not want to share.

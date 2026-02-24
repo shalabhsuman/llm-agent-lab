@@ -1,0 +1,11 @@
+[PLACEHOLDER - DO NOT ADD SENSITIVE INFO]
+
+Paste a redacted/plain-text version of your resume here,
+or add a file named resume.pdf in this same folder.
+
+Suggested sections:
+- Experience
+- Education
+- Skills
+- Projects
+- Certifications
