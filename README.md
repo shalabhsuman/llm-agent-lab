@@ -4,6 +4,25 @@ A collection of production-style LLM agent systems focused on conversational int
 
 ---
 
+## LLM Research Orchestrator
+
+Multi-agent research system that plans web research, synthesizes long-form reports, and delivers final outputs via email.
+
+**Highlights**
+- Multi-agent workflow (planner, search, writer, email)
+- Research orchestration with OpenAI Agents SDK
+- Gradio interface with streamed progress updates
+- SendGrid integration for report delivery
+- Hugging Face Spaces deployment support
+
+**Live Deployment**  
+https://huggingface.co/spaces/snsh0327/LLM-Research-Orchestrator
+
+**Implementation**  
+[llm-research-orchestrator/README.md](./llm-research-orchestrator/README.md)
+
+---
+
 ## Resume Conversation Agent
 
 Conversational agent representing a structured candidate profile, designed for interactive career discussions and lead capture.

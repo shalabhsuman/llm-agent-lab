@@ -11,7 +11,7 @@ This project follows a simple application structure centered around an entrypoin
 - `app.py`: Gradio chat app and LLM interaction loop
 - `data/summary.txt`: high-level profile summary (safe, non-sensitive)
 - `data/resume.txt` or `data/resume.pdf`: resume content used as context
-- `.env`: local secrets/config (not committed)
+- `../.env`: shared repository-level secrets/config (not committed)
 
 ## Tech Stack
 
@@ -24,7 +24,7 @@ This project follows a simple application structure centered around an entrypoin
 
 1. Create and activate a Python virtual environment.
 2. Install dependencies from `requirements.txt`.
-3. Copy `.env.example` to `.env` and set at least `OPENAI_API_KEY`.
+3. Copy `../.env.example` to `../.env` and set at least `OPENAI_API_KEY`.
 4. Add safe, non-sensitive placeholder content in `data/summary.txt` and `data/resume.txt` (or provide `data/resume.pdf`).
 5. Run the application:
 
@@ -51,7 +51,7 @@ hf auth login --token hf_xxx
 hf auth whoami
 ```
 
-5. Save token locally in `.env`:
+5. Save token locally in `../.env`:
 
 ```env
 HF_TOKEN=hf_xxx

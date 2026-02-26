@@ -7,10 +7,10 @@ from openai import OpenAI
 from pypdf import PdfReader
 
 
-load_dotenv(override=True)
-
 BASE_DIR = Path(__file__).parent
 DATA_DIR = BASE_DIR / "data"
+ROOT_ENV_PATH = BASE_DIR.parent / ".env"
+load_dotenv(dotenv_path=ROOT_ENV_PATH, override=True)
 
 
 def _read_text(path: Path) -> str:
