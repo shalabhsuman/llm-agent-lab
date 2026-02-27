@@ -7,26 +7,20 @@ A collection of production-style LLM agent systems focused on conversational int
 ## Technology Stack
 
 ### AI and Agent Frameworks
-- **OpenAI Agents SDK** - LLM integration and API access  
-  https://platform.openai.com/docs/libraries
-- **CrewAI** - Multi-agent orchestration  
-  https://www.crewai.com/
-- **Serper API** - Fast Google SERP API for web research retrieval  
-  https://serper.dev/
+- **[OpenAI Agents SDK](https://platform.openai.com/docs/libraries)** - LLM integration and API access
+- **[CrewAI](https://www.crewai.com/)** - Multi-agent orchestration
+- **[Serper API](https://serper.dev/)** - Fast Google SERP API for web research retrieval
+- **[Gradio](https://www.gradio.app/)** - Interactive web UI for agent-based applications
 
 ### Deployment and Operations
-- **Vercel** - Hosting and production deployment  
-  https://vercel.com/
-- **Pushover** - Notification delivery  
-  https://pushover.net/
-- **SendGrid** - Transactional email delivery  
-  https://sendgrid.com/
+- **[Vercel](https://vercel.com/)** - Hosting and production deployment
+- **[Hugging Face Spaces](https://huggingface.co/spaces)** - Hosted app deployment for interactive demos
+- **[Pushover](https://pushover.net/)** - Notification delivery
+- **[SendGrid](https://sendgrid.com/)** - Transactional email delivery
 
 ### Core Runtime
-- **Node.js** - JavaScript runtime for development and backend workflows  
-  https://nodejs.org/
-- **uv** - Python package and project manager  
-  https://docs.astral.sh/uv/
+- **[Node.js](https://nodejs.org/)** - JavaScript runtime for development and backend workflows
+- **[uv](https://docs.astral.sh/uv/)** - Python package and project manager
 
 **Setup and configuration guide:** [docs/setup-guide.md](./docs/setup-guide.md)
 
