@@ -4,6 +4,34 @@ A collection of production-style LLM agent systems focused on conversational int
 
 ---
 
+## Technology Stack
+
+### AI and Agent Frameworks
+- **OpenAI Agents SDK** - LLM integration and API access  
+  https://platform.openai.com/docs/libraries
+- **CrewAI** - Multi-agent orchestration  
+  https://www.crewai.com/
+- **Serper API** - Fast Google SERP API for web research retrieval  
+  https://serper.dev/
+
+### Deployment and Operations
+- **Vercel** - Hosting and production deployment  
+  https://vercel.com/
+- **Pushover** - Notification delivery  
+  https://pushover.net/
+- **SendGrid** - Transactional email delivery  
+  https://sendgrid.com/
+
+### Core Runtime
+- **Node.js** - JavaScript runtime for development and backend workflows  
+  https://nodejs.org/
+- **uv** - Python package and project manager  
+  https://docs.astral.sh/uv/
+
+**Setup and configuration guide:** [docs/setup-guide.md](./docs/setup-guide.md)
+
+---
+
 ## LLM Research Orchestrator
 
 Multi-agent research system that plans web research, synthesizes long-form reports, and delivers final outputs via email.
