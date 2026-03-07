@@ -26,7 +26,31 @@ A collection of production-style LLM agent systems focused on conversational int
 
 ---
 
-## LLM Research Orchestrator
+## [OncoInsight AI](https://github.com/shalabhsuman/oncoinsight-agents)
+
+Generative multi-agent system for automated cancer biomarker interpretation.
+
+**Architecture Diagram**  
+![OncoInsight Architecture](https://raw.githubusercontent.com/shalabhsuman/oncoinsight-agents/main/docs/images/architecture-diagram.png)
+
+**Highlights**
+- Manager Orchestrator agent coordinates the full multi-agent workflow
+- MCP tool integration (PubMed + Brave Search) for evidence retrieval
+- Gradio interface for interactive report generation
+- Structured biomarker interpretation reports in Markdown format
+
+**Workflow**
+1. Step 1: Biomarker Retrieval Agent retrieves biomarker results from PostgreSQL.
+2. Step 2: Biological Annotation Agent determines biological significance of detected genes.
+3. Step 3: Literature Agent retrieves supporting evidence using PubMed and Brave Search MCP tools.
+4. Step 4: Clinical Interpretation Agent generates a structured biomarker interpretation report.
+
+**GitHub Repo**  
+[oncoinsight-agents](https://github.com/shalabhsuman/oncoinsight-agents)
+
+---
+
+## [LLM Research Orchestrator](./llm-research-orchestrator/README.md)
 
 Multi-agent research system that plans web research, synthesizes long-form reports, and delivers final outputs via email.
 
@@ -45,7 +69,7 @@ https://huggingface.co/spaces/snsh0327/LLM-Research-Orchestrator
 
 ---
 
-## Resume Conversation Agent
+## [Resume Conversation Agent](./resume-agent/README.md)
 
 Conversational agent representing a structured candidate profile, designed for interactive career discussions and lead capture.
 
