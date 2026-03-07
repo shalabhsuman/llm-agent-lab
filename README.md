@@ -1,6 +1,6 @@
 # LLM Agent Systems Portfolio
 
-A collection of production-style LLM agent systems focused on conversational interfaces, tool integration, and deployment patterns.
+A collection of production-style multi-agent LLM systems focused on orchestration, tool integration, and deployable AI workflows.
 
 ---
 
